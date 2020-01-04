@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "joshua-abuto-webfolio"
+  },
+  "targets": {
+    "joshua-abuto-webfolio": {
+      "hosting": {
+        "abutojoshua.tosujays.com": [
+          "index.html"
+        ]
+      }
+    }
+  }
+}

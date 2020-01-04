@@ -1,0 +1,26 @@
+[debug] [2020-01-04T03:01:56.569Z] ----------------------------------------------------------------------
+[debug] [2020-01-04T03:01:56.575Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\joshu\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve --only hosting
+[debug] [2020-01-04T03:01:56.575Z] CLI Version:   7.11.0
+[debug] [2020-01-04T03:01:56.575Z] Platform:      win32
+[debug] [2020-01-04T03:01:56.575Z] Node Version:  v13.1.0
+[debug] [2020-01-04T03:01:56.592Z] Time:          Fri Jan 03 2020 21:01:56 GMT-0600 (Central Standard Time)
+[debug] [2020-01-04T03:01:56.593Z] ----------------------------------------------------------------------
+[debug] [2020-01-04T03:01:56.593Z] 
+[debug] [2020-01-04T03:01:56.640Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-01-04T03:01:56.642Z] > authorizing via signed-in user
+[debug] [2020-01-04T03:01:56.642Z] [iam] checking project joshua-abuto-webfolio for permissions ["firebase.projects.get"]
+[debug] [2020-01-04T03:01:56.650Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2020-01-04T03:01:56.652Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2020-01-04T03:01:56.877Z] <<< HTTP RESPONSE 200
+[debug] [2020-01-04T03:01:56.891Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/joshua-abuto-webfolio:testIamPermissions  
+
+[debug] [2020-01-04T03:01:57.150Z] <<< HTTP RESPONSE 200
+[debug] [2020-01-04T03:01:57.154Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/joshua-abuto-webfolio  
+ 
+[debug] [2020-01-04T03:01:57.845Z] <<< HTTP RESPONSE 200
+[debug] [2020-01-04T03:01:57.849Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/joshua-abuto-webfolio/webApps/-/config  
+ 
+[debug] [2020-01-04T03:01:58.252Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
