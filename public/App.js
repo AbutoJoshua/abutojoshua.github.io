@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {ReactDOM} from 'react';
 import {Layout, Header, Navigation, Drawer, Content} from 'react-mdl';
 import Main from './Components/main';
 import {Link} from 'react-router-dom';
@@ -7,7 +7,7 @@ import './newlogo.png'
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" id="root">
       <div className="demo-big-content">
     <Layout>
   <Header className='header-color' title={<Link style={{textDecoration:'none', color: 'white'}} to="/">Joshua Abuto</Link>}  scroll>
@@ -45,5 +45,6 @@ function App() {
     </div>
   );
 }
+ReactDOM.render(App, document.getElementById('root'));
 
 export default App;
