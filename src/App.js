@@ -7,7 +7,7 @@ import './newlogo.png'
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" id="root">
       <div className="demo-big-content">
     <Layout>
   <Header className='header-color' title={<Link style={{textDecoration:'none', color: 'white'}} to="/">Joshua Abuto</Link>}  scroll>
